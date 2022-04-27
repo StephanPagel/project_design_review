@@ -20,3 +20,149 @@ Fonts: Graphik, TiemposHeadline, Theinhardt */
     font-family: 'tiempos_headline_semibold';
     src: url('../fonts/TiemposHeadline-Semibold.woff')
 }
+
+/* ====================
+        GENERAL
+==================== */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    border: 1px dotted red;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+p {
+    line-height: 1.5;
+}
+
+/* ====================
+        HEADER
+==================== */
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 10%;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+header nav ul li {
+    list-style: none;
+    font-family: graphik_regular;
+    font-size: 1.5rem;
+    margin: 20px 10px 20px 20px;
+}
+
+header nav p {
+    font-family: tiempos_headline_semibold;
+    font-size: 2.5rem;
+}
+
+header nav a {
+    padding: 10px 60px;
+    font-family: graphik_medium;
+    text-decoration: none;
+    font-size: 1.8rem;
+    color: black;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+header h1 {
+    text-align: center;
+    font-family: graphik_regular;
+    font-size: 4rem;
+    margin: 10vh 0 5vh 0;
+}
+
+header img {
+    width: 100vw;
+}
+
+/* ====================
+        ARTICLE 149
+==================== */
+
+.dollar {
+    display: flex;
+    margin: 15vh 10%;
+}
+
+.dollar>p {
+    font-family: graphik_medium;
+    font-size: 2rem;
+    flex-basis: 65%;
+}
+
+.dollar div {
+    margin: 0 auto;
+    flex-basis: 10%;
+}
+
+.dollar div p:nth-of-type(1) {
+    font-family: theinhardt_lt;
+    font-size: 6em;
+    line-height: 1;
+}
+
+.dollar div p:nth-of-type(2) {
+    font-family: theinhardt_lt;
+    font-size: 1.5em;
+    color: #9FA2A7;
+}
+
+/* ====================
+        SECTION DELIVERABLES
+==================== */
+
+.deliverables {
+    margin: 0 10%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.deliverables>div:nth-of-type(1) {
+    flex-basis: 45%;
+}
+
+.deliverables>div:nth-of-type(1) img {
+    width: 100%;
+}
+
+.deliverables>div:nth-of-type(2) {
+    width: 50%;
+}
+
+.deliverables div:nth-of-type(2) article {
+    display: flex;
+    flex-direction: column;
+}
+
+.deliverables div:nth-of-type(2) article h2 {
+    font-family: tiempos_headline_semibold;
+    font-size: 5em;
+    margin-bottom: 5vh;
+}
+
+.deliverables div:nth-of-type(2) article div p:nth-of-type(1) {
+    font-family: graphik_medium;
+    font-size: 1.8rem;
+    margin-bottom: 1vh;
+}
+
+.deliverables div:nth-of-type(2) article div p:nth-of-type(2) {
+    font-family: theinhardt_lt;
+    color: #9FA2A7;
+    font-size: 1.8rem;
+    margin-bottom: 1vh;
+}
