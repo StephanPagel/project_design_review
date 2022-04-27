@@ -1,0 +1,22 @@
+/* Farben: #2B2C2E /  #9FA2A7 / #27282A /  #848689 / #3D3E41 / #fff
+Fonts: Graphik, TiemposHeadline, Theinhardt */
+
+@font-face {
+    font-family: 'graphik_medium';
+    src: url('../fonts/Graphik-Medium.ttf')
+}
+
+@font-face {
+    font-family: 'graphik_regular';
+    src: url('../fonts/Graphik-Regular.woff')
+}
+
+@font-face {
+    font-family: 'theinhardt_lt';
+    src: url('../fonts/Theinhardt-Lt.woff')
+}
+
+@font-face {
+    font-family: 'tiempos_headline_semibold';
+    src: url('../fonts/TiemposHeadline-Semibold.woff')
+}
